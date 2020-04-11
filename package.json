@@ -1,0 +1,45 @@
+{
+  "name": "prettier-plugin-mdx-no-text-child",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "format:check": "prettier . --check",
+    "format:write": "prettier . --write",
+    "prepublish": "yarn format:check && yarn test && tsc",
+    "pretest": "tsc && jest --clearCache",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Nicolas Cuillery <nicolas.cuillery@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          "test/test-cases/*.ts"
+        ],
+        "options": {
+          "tabWidth": 0
+        }
+      }
+    ]
+  },
+  "peerDependencies": {
+    "prettier": ">=1.15.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@types/prettier": "^2.0.0",
+    "@types/unist": "^2.0.3",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
+}
