@@ -6,7 +6,7 @@
   "scripts": {
     "format:check": "prettier . --check",
     "format:write": "prettier . --write",
-    "prepublish": "yarn format:check && yarn test && tsc",
+    "prepublishOnly": "yarn format:check && yarn test && tsc",
     "pretest": "jest --clearCache",
     "test": "jest"
   },
