@@ -1,7 +1,7 @@
 {
   "name": "prettier-plugin-mdx-no-text-child",
   "version": "0.1.0",
-  "description": "",
+  "description": "Prettier plugin to enforce that MDX tags are always separated from their child by a blank line",
   "main": "lib/index.js",
   "scripts": {
     "format:check": "prettier . --check",
@@ -10,7 +10,12 @@
     "pretest": "jest --clearCache",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "prettier",
+    "prettier-plugin",
+    "mdx",
+    "mdx-js"
+  ],
   "author": "Nicolas Cuillery <nicolas.cuillery@gmail.com>",
   "license": "MIT",
   "jest": {
