@@ -1,4 +1,4 @@
-![CI](https://github.com/ncuillery/prettier-plugin-mdx-no-text-child/workflows/CI/badge.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/ncuillery/prettier-plugin-mdx-no-text-child/badge.svg?branch=master)](https://coveralls.io/github/ncuillery/prettier-plugin-mdx-no-text-child?branch=master)
+![CI](https://github.com/ncuillery/prettier-plugin-mdx-no-text-child/workflows/CI/badge.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/ncuillery/prettier-plugin-mdx-no-text-child/badge.svg?branch=master)](https://coveralls.io/github/ncuillery/prettier-plugin-mdx-no-text-child?branch=master) [![npm](https://img.shields.io/npm/v/prettier-plugin-mdx-no-text-child)](https://www.npmjs.com/package/prettier-plugin-mdx-no-text-child)
 
 # Usage
 
