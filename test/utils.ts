@@ -4,7 +4,7 @@ import { resolve } from "path";
 export const format = (input: string) => {
   const output = prettierFormat(input, {
     parser: "mdx",
-    plugins: [resolve(__dirname, "..", "lib")],
+    plugins: [resolve(__dirname, "..", "src")],
   });
 
   const vanillaOutput = prettierFormat(input, {

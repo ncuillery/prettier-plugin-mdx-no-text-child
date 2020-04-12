@@ -7,7 +7,7 @@
     "format:check": "prettier . --check",
     "format:write": "prettier . --write",
     "prepublish": "yarn format:check && yarn test && tsc",
-    "pretest": "tsc && jest --clearCache",
+    "pretest": "jest --clearCache",
     "test": "jest"
   },
   "keywords": [],
