@@ -1,3 +1,5 @@
+![CI](https://github.com/ncuillery/prettier-plugin-mdx-no-text-child/workflows/CI/badge.svg?branch=master)
+
 # Usage
 
 Add this plugin as a dev dependency:
