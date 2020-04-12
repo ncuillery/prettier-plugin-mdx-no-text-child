@@ -4,27 +4,13 @@
 
 Add this plugin as a dev dependency:
 
-<table>
-  <thead><tr><th>NPM</th><th>Yarn</th></tr></thead>
-<tbody>
-<tr>
-<td>
+```bash
+npm i -D prettier-plugin-mdx-no-text-child
 
-```shell
-$ npm i --dev prettier-plugin-mdx-no-text-child
-```
+# or
 
-</td>
-<td>
-
-```shell
 yarn add -D prettier-plugin-mdx-no-text-child
 ```
-
-</td>
-</tr>
-</tbody>
-</table>
 
 And that's it, Prettier will automatically load the plugin based on the package name (`prettier-plugin-*`).
 
@@ -168,4 +154,4 @@ This is a 0.x version because this plugin is currently just smart enough to suit
 
 To enter 1.0, it needs to be more flexible and have options to exclude specific tags, or insert line breaks only if there are multiple children.
 
-It more need more test cases, there are a LOT of untested situations where the formatting can go wrong.
+It also need more test cases, there are a LOT of untested situations where the formatting can go wrong.
